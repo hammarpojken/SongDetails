@@ -7,7 +7,7 @@ const SongDetail = ({ song }) => {
     return <div>Select a song</div>;
   }
   return (
-    <div className="ui segment">
+    <div className="ui">
       <h3>Details for:</h3>
       <p>
         Title: {song.title}

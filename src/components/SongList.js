@@ -15,13 +15,13 @@ class SongList extends Component {
               Select
             </button>
           </div>
-          <div className="content">{song.title}</div>
+          <div className="content ">{song.title}</div>
         </div>
       );
     });
   }
   render() {
-    return <div className="ui divided list segment">{this.renderList()}</div>;
+    return <div className="ui divided list">{this.renderList()}</div>;
   }
 }
 
